@@ -215,6 +215,7 @@ public class AddressBook {
             echoUserCommand(userCommand);
             String feedback = executeCommand(userCommand);
             showResultToUser(feedback);
+            system.out.printf(userCommand);
         }
     }
 
